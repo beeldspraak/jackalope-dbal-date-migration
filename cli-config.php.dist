@@ -1,0 +1,14 @@
+<?php
+
+$dbConfig = array(
+    'hostname' => 'localhost',
+    'username' => '',
+    'password' => '',
+    'database' => '',
+    // 'driver' => 'pdo_mysql', // defaults to this
+);
+
+// Optional PHPCR setting
+$phpcr = array(
+    // 'workspaces'    => 'default',
+);

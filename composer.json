@@ -1,0 +1,19 @@
+{
+    "name": "beeldspraak/migrate-jackalope-dbal-dates",
+    "description": "Converts all Date properties in format 'r' to format 'Y-m-d H:i:s'",
+    "authors": [
+        {
+            "name": "Willem-Jan Zijderveld",
+            "email": "wjzijderveld@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "jackalope/jackalope-doctrine-dbal": "1.0.x-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "": ""
+        }
+    }
+}
