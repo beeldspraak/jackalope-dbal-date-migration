@@ -18,6 +18,4 @@ Last step is to run command
 
 Or, if you want to see what would be updated, run the dry-run
 
-    bin/migrate jackalope:dbal:migrate-date-properties -t
-or
     bin/migrate jackalope:dbal:migrate-date-properties --dry-run
