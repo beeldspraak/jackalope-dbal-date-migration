@@ -1,5 +1,6 @@
 <?php
 use Symfony\Component\Console\Command\Command;
+use PHPCR\PropertyType;
 use Jackalope\Session;
 use Jackalope\Node;
 use Symfony\Component\Console\Input\InputInterface;
@@ -97,7 +98,7 @@ EOT
                     $property->setModified();
                 }
 
-                $this->updates[$node->getPath()][] = $property->getName() . sprintf(' (<comment>%s</comment> => <comment>%s</comment>)', $property->getValue()->format('r'), $property->getValue()->format('Y-m-d H:i:s'));
+                $this->updates[$node->getPath()][] = $property->getName() . sprintf(' (<comment>%s</comment> => <comment>%s</comment>)', $property->getValue()->format('r'), PropertyType::convertType($property->getValue(), PropertyType::STRING));
             }
         }
     }

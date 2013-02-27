@@ -1,5 +1,5 @@
 {
-    "hash": "d400b689727239d60104cb57576d6ee4",
+    "hash": "bfb833cc34eb0cc029216ff636204f28",
     "packages": [
         {
             "name": "doctrine/common",
@@ -139,12 +139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope.git",
-                "reference": "9aaf5974849b399faba648e389070002cbffe53d"
+                "reference": "6d99b7528a723856ab673e6476c2483f10712321"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/9aaf5974849b399faba648e389070002cbffe53d",
-                "reference": "9aaf5974849b399faba648e389070002cbffe53d",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/6d99b7528a723856ab673e6476c2483f10712321",
+                "reference": "6d99b7528a723856ab673e6476c2483f10712321",
                 "shasum": ""
             },
             "require": {
@@ -157,7 +157,7 @@
             "provide": {
                 "phpcr/phpcr-implementation": "2.1.0-beta4"
             },
-            "time": "2013-02-19 16:33:07",
+            "time": "2013-02-26 13:34:26",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -191,12 +191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
-                "reference": "5b32d44452188180f87f9878573d890e820a3a33"
+                "reference": "d25d23f85e0e5858daf877169666480376aefca6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/5b32d44452188180f87f9878573d890e820a3a33",
-                "reference": "5b32d44452188180f87f9878573d890e820a3a33",
+                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/d25d23f85e0e5858daf877169666480376aefca6",
+                "reference": "d25d23f85e0e5858daf877169666480376aefca6",
                 "shasum": ""
             },
             "require": {
@@ -210,7 +210,7 @@
             "require-dev": {
                 "phpcr/phpcr-api-tests": "dev-master"
             },
-            "time": "2013-02-13 17:53:13",
+            "time": "2013-02-26 16:16:48",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -299,12 +299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-utils.git",
-                "reference": "1.0-beta5"
+                "reference": "9a334225fd7980e8d3d2e02485212ad6dfceee50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/1.0-beta5",
-                "reference": "1.0-beta5",
+                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/9a334225fd7980e8d3d2e02485212ad6dfceee50",
+                "reference": "9a334225fd7980e8d3d2e02485212ad6dfceee50",
                 "shasum": ""
             },
             "require": {
@@ -312,7 +312,7 @@
                 "phpcr/phpcr": "2.1.0-beta8",
                 "symfony/console": ">=2.0.0,<2.3.0-dev"
             },
-            "time": "2013-02-12 20:35:57",
+            "time": "2013-02-22 23:08:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -362,12 +362,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "v2.2.0-RC1"
+                "reference": "v2.2.0-RC3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.2.0-RC1",
-                "reference": "v2.2.0-RC1",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.2.0-RC3",
+                "reference": "v2.2.0-RC3",
                 "shasum": ""
             },
             "require": {
@@ -403,9 +403,7 @@
             "homepage": "http://symfony.com"
         }
     ],
-    "packages-dev": [
-
-    ],
+    "packages-dev": null,
     "aliases": [
 
     ],
